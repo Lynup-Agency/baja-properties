@@ -1705,5 +1705,12 @@ td {
  * ==========================================================================
  * This is a placeholder and example for a view.
  */
+.container {
+  max-width: 2000px;
+}
+.container img {
+  width: 2000px;
+  border: thin #ec9224 solid;
+}
 
 /*# sourceMappingURL=styles.css.map */
