@@ -7,12 +7,13 @@
 .footer {
 	height: 270px;
 	color: $copy-light;
-	background: $baja-gray;
+	background: $baja-gray url("../img/footer-template.jpg") center top no-repeat;
 }
 
 .bottom-foot{
 	color: $copy-light;
 	text-align: center;
+	font-family: 'baja-sans-light';
 	height: 40px;
 	padding-top: 12px;
 	font-size: 10px;
