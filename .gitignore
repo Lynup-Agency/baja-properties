@@ -8,3 +8,4 @@ Thumbs.db
 # -------------------- Files to Ignore
 *.ignore
 node_modules/
+npm/
