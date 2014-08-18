@@ -8,6 +8,7 @@
 	height: 270px;
 	color: $copy-light;
 	background: $baja-gray url("../img/footer-template.jpg") center top no-repeat;
+	padding-left: 40px;
 }
 
 .bottom-foot{
@@ -18,4 +19,132 @@
 	padding-top: 12px;
 	font-size: 10px;
 	background-color: $baja-orange;
+}
+
+.footer-box {
+	float: left;
+	margin-top: 20px;
+	width: 340px;
+	height: 240px;
+	padding-left: 10px;
+	
+	
+	text-decoration: none !important;
+	font-family: 'baja-sans-bold';
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.footer-divider {
+	float: left;
+	width: 20px;
+	height: 180px;
+	border-right: 1px solid #fff;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+.footer-txt {
+	float: left;
+	width:290px;
+}
+.social-box-fb {
+	float: left;
+	width: 39px;
+	height: 39px;
+	margin-right: 15px;
+	margin-top: 20px;
+	
+	background-image: url('../img/sprite.png');
+ 	background-position: 0px 0px;		
+}
+.social-box-twitter {
+	float: left;
+	width: 39px;
+	height: 39px;
+	margin-right: 15px;
+	margin-top: 20px;
+	
+	background-image: url('../img/sprite.png');
+ 	background-position: 313px 0px;		
+}
+.social-box-gplus {
+	float: left;
+	width: 39px;
+	height: 39px;
+	margin-right: 15px;
+	margin-top: 20px;
+	
+	background-image: url('../img/sprite.png');
+ 	background-position: 265px 0px;		
+}
+.social-box-yt {
+	float: left;
+	width: 39px;
+	height: 39px;
+	margin-right: 15px;
+	margin-top: 20px;
+	
+	background-image: url('../img/sprite.png');
+ 	background-position: 217px 0px;		
+}
+.footer-heading {
+    font-family: 'baja-serif-bold';
+	font-size: 18px;
+	color: #ec9224;
+	margin-top: 40px;
+	padding-bottom: 20px;
+
+}
+.contact-address {
+	float: left;
+	height: 35px;
+	width: 25px;
+	background-image: url('../img/sprite.png');
+ 	background-position: 166px 0px;	
+ 	margin-right: 10px;
+ 	margin-top: 5px;
+ 	margin-left: -3px;	
+}
+.contact-telephone {
+	float: left;
+	width: 300px;
+	height: 30px;
+	background-position: left;
+	background-image: url('../img/telephone.png');
+	background-repeat: no-repeat;
+	padding-left: 33px;
+	margin-left: -2px;
+	margin-top: 15px;
+	line-height: 30px;
+}
+.contact-mail {
+	float: left;
+	width: 300px;
+	height: 30px;
+	background-position: left;
+	background-image: url('../img/mail.png');
+	background-repeat: no-repeat;
+	padding-left: 33px;
+	margin-top: 5px;
+	margin-left: -2px;
+	line-height: 30px;
+}
+ul {
+	float: left;
+	margin-bottom: 100px;
+	list-style-type:none;
+	margin-left: 0px;
+	margin-right: 50px;
+}
+ul a:link {
+    color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	transition: all 0.5s ease;
+}
+ul a:visited {
+    color: #fff;
+}
+ul a:hover {
+    color: #ec9224;
 }
