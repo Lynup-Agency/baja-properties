@@ -4,12 +4,19 @@
  * This is a placeholder and example for a view.
  */
 
- .container{
- 	max-width: 2000px;
+.specialty{
+	height: 265px;
+	background-color: $baja-orange;
+	background: url("../img/sand-bg.jpg") center top no-repeat;
+}
 
- 	img{
- 		width: 2000px;
- 		border: thin $baja-orange solid;
- 	}
+.ctas{
+	height: 540px;
 
- }
+	img{ margin-top: 75px; }
+}
+
+.properties{
+	height: 895px;
+	background: url("../img/sand-background.jpg") center top no-repeat;
+}
