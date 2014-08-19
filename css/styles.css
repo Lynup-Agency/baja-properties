@@ -555,6 +555,10 @@ th {
   padding: 0;
 }
 
+.clear-correct {
+  clear: both;
+}
+
 /**
  * $RESET
  * ==========================================================================
@@ -1760,35 +1764,24 @@ td {
  * page title.
  */
 .footer {
-  height: 270px;
   color: white;
   background: #343434;
   padding-left: 40px;
+  padding-bottom: 20px;
 }
-
-.bottom-foot {
-  color: white;
-  text-align: center;
-  font-family: 'baja-sans-light';
-  height: 40px;
-  padding-top: 12px;
-  font-size: 10px;
-  background-color: #ec9224;
-}
-
-.footer-box {
+.footer .footer-box {
   float: left;
   margin-top: 20px;
   width: 340px;
   height: 240px;
   padding-left: 10px;
   text-decoration: none !important;
-  font-family: 'baja-sans-bold';
+  font-family: 'baja-sans-reg';
+  letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 20px;
 }
-
-.footer-divider {
+.footer .footer-divider {
   float: left;
   width: 20px;
   height: 180px;
@@ -1796,13 +1789,11 @@ td {
   margin-top: 40px;
   margin-right: 20px;
 }
-
-.footer-txt {
+.footer .footer-txt {
   float: left;
   width: 290px;
 }
-
-.social-box-fb {
+.footer .social-box-fb {
   float: left;
   width: 39px;
   height: 39px;
@@ -1811,8 +1802,7 @@ td {
   background-image: url("../img/sprite.png");
   background-position: 0px 0px;
 }
-
-.social-box-twitter {
+.footer .social-box-twitter {
   float: left;
   width: 39px;
   height: 39px;
@@ -1821,8 +1811,7 @@ td {
   background-image: url("../img/sprite.png");
   background-position: 313px 0px;
 }
-
-.social-box-gplus {
+.footer .social-box-gplus {
   float: left;
   width: 39px;
   height: 39px;
@@ -1831,8 +1820,7 @@ td {
   background-image: url("../img/sprite.png");
   background-position: 265px 0px;
 }
-
-.social-box-yt {
+.footer .social-box-yt {
   float: left;
   width: 39px;
   height: 39px;
@@ -1841,17 +1829,18 @@ td {
   background-image: url("../img/sprite.png");
   background-position: 217px 0px;
 }
-
-.footer-heading {
-  font-family: 'baja-serif-bold';
+.footer .footer-heading {
+  font-family: 'baja-serif-reg';
   font-size: 18px;
   color: #ec9224;
   margin-top: 40px;
   padding-bottom: 20px;
   letter-spacing: 0.03em;
 }
-
-.contact-address {
+.footer .footer-heading span {
+  font-size: 22px;
+}
+.footer .contact-address {
   float: left;
   height: 35px;
   width: 25px;
@@ -1861,8 +1850,7 @@ td {
   margin-top: 5px;
   margin-left: -3px;
 }
-
-.contact-telephone {
+.footer .contact-telephone {
   float: left;
   width: 300px;
   height: 30px;
@@ -1874,8 +1862,7 @@ td {
   margin-top: 15px;
   line-height: 30px;
 }
-
-.contact-mail {
+.footer .contact-mail {
   float: left;
   width: 300px;
   height: 30px;
@@ -1887,28 +1874,34 @@ td {
   margin-left: -2px;
   line-height: 30px;
 }
-
-ul {
+.footer ul {
   float: left;
   margin-bottom: 100px;
   list-style-type: none;
   margin-left: 0px;
   margin-right: 50px;
 }
-
-ul a:link {
+.footer ul a:link {
   color: #fff;
   text-decoration: none;
   font-weight: 700;
   transition: all 0.5s ease;
 }
-
-ul a:visited {
+.footer ul a:visited {
   color: #fff;
 }
-
-ul a:hover {
+.footer ul a:hover {
   color: #ec9224;
+}
+
+.bottom-foot {
+  color: white;
+  text-align: center;
+  font-family: 'baja-sans-light';
+  height: 40px;
+  padding-top: 12px;
+  font-size: 10px;
+  background-color: #ec9224;
 }
 
 /**
