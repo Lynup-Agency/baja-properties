@@ -13,7 +13,7 @@
 			font-size: 26px;
 		}
 
-	h1 {
+	h3 {
 	margin: 0 auto;
 	margin-top: 75px;
 	font-family: 'baja-serif-bold';
@@ -44,63 +44,29 @@
 	}
 }
 
-.ctas{
-	height: 540px;
+.ctas{ margin: 120px 0; }
 
-	img{ margin-top: 75px; }
-}
 .activities-box {
 	float: left;
 	width: 260px;
-	height: 325px;	
 	margin-left: 25px;
-	margin-top: 25px;
 	text-align: center;
 	color: #000000;
 
-	.activities-img1 {
-		width: 145px;
-		height: 157px;
-		margin-top: 15px;
-		background-image: url('../img/icon-beach-front.jpg');
-		margin: 0 auto;
-	}
-	.activities-img2 {
-		width: 145px;
-		height: 157px;
-		margin-top: 15px;
-		background-image: url('../img/icon-beach-land.jpg');
-		margin: 0 auto;
-	}
-	.activities-img3 {
-		width: 145px;
-		height: 157px;
-		margin-top: 15px;
-		background-image: url('../img/icon-development.jpg');
-		margin: 0 auto;
-	}
-	.activities-img4 {
-		width: 145px;
-		height: 157px;
-		margin-top: 15px;
-		background-image: url('../img/icon-ownership.jpg');
-		margin: 0 auto;
-	}
-
-	h1 {
-	margin-top: 10px;
-	font-family: 'baja-sans-bold';
-	font-size: 16px;
-	letter-spacing: 0.03em;	
-	text-transform: uppercase;
-	margin-bottom: 15px;
+	h3 {
+		margin-top: 10px;
+		font-family: 'baja-sans-bold';
+		font-size: 16px;
+		letter-spacing: 0.03em;	
+		text-transform: uppercase;
+		margin-bottom: 15px;
 	}
 
 	.act-txt {
-	font-family: 'baja-sans-light';
-	font-size: 16px;	
-	line-height: 16px;
-	margin-bottom: 10px;
+		font-family: 'baja-sans-light';
+		font-size: 16px;	
+		line-height: 16px;
+		margin-bottom: 10px;
 	}
 
 	a:link {
@@ -123,38 +89,41 @@
 	height: 895px;
 	background: url("../img/sand-background.jpg") center top no-repeat;
 
-	h1 {
-	font-family: 'baja-serif-bold';
-	font-size: 26px;
-	color: #ec9224;
-	letter-spacing: 0.03em;	
-	text-align: center;
-	margin-bottom: -25px;
-	padding-top: 65px;
+	h3 {
+		font-family: 'baja-serif-bold';
+		font-size: 26px;
+		color: #ec9224;
+		letter-spacing: 0.03em;	
+		text-align: center;
+		margin-bottom: -25px;
+		padding-top: 65px;
+		span{
+			font-size: 30px;
+		}
 	}
 	.img-box {	
-	float: left;
-	width: 350px;
-	height: 270px;
-	
-	border: 4px solid #fff;
-	padding-left: 5 px;
-	padding-top: 5 px;
-	padding-right: 5px;
-	margin-left: 25px;
-	margin-top: 100px;
+		float: left;
+		width: 350px;
+		height: 270px;
+		
+		border: 4px solid #fff;
+		padding-left: 5 px;
+		padding-top: 5 px;
+		padding-right: 5px;
+		margin-left: 25px;
+		margin-top: 100px;
 
-	display: block; 
-	background: #fff; 
+		display: block; 
+		background: #fff; 
 
-	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
-	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
+		-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
+		box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
 
-	transition: box-shadow 0.3s linear 0s; 
-	-webkit-transition: box-shadow 0.3s linear 0s;
-	-moz-transition: box-shadow 0.3s linear 0s;
-	-o-transition: box-shadow 0.3s linear 0s; 
+		transition: box-shadow 0.3s linear 0s; 
+		-webkit-transition: box-shadow 0.3s linear 0s;
+		-moz-transition: box-shadow 0.3s linear 0s;
+		-o-transition: box-shadow 0.3s linear 0s; 
 
 	}
 		.anchor-hover { display: block; position: relative; }

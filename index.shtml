@@ -20,70 +20,63 @@
 
 			<div class="row specialty">
 				<div class="container">
-					<h1><span>S</span>pecializing <span>i</span>n <span>S</span>ecure 
-						<span>R</span>eal <span>E</span>state <span>I</span>nvestment 
-						<span>i</span>n <span>B</span>aja, MX.
-					</h1>
+					<h3><span>S</span>pecializing 
+						<span>i</span>n 
+						<span>S</span>ecure 
+						<span>R</span>eal 
+						<span>E</span>state 
+						<span>I</span>nvestment 
+						<span>i</span>n 
+						<span>B</span>aja, MX.
+					</h3>
 					<hr>
 					<h2>We help U.S. Citizens in all aspects of Mexican real estate acquisition
 						and developing. <br>Our team of architects, engineers, and builders are 
 						available to lend you their expertise.
 					</h2>
-
 				</div>
 			</div>
 
 			<div class="row ctas">
 				<div class="container">
-					<!--Activities box-1 START-->
 					<div class="activities-box">
-						<div class="activities-img1"></div>
-						<h1>Beach front homes</h1>
+						<img src="img/icon-beach-front.jpg"/>
+						<h3>Beach front homes</h3>
 						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						</p>
 						<a href="#">Read More></a>
 					</div>
-					<!--Activities box-1  END-->
 
-					<!--Activities box-1 START-->
 					<div class="activities-box">
-						<div class="activities-img2"></div>
-						<h1>Beach front land</h1>
+						<img src="img/icon-beach-land.jpg"/>
+						<h3>Beach front land</h3>
 						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						</p>
 						<a href="#">Read More></a>
 					</div>
-					<!--Activities box-1  END-->
 
-					<!--Activities box-1 START-->
 					<div class="activities-box">
-						<div class="activities-img3"></div>
-						<h1>Land development</h1>
+						<img src="img/icon-development.jpg"/>
+						<h3>Land development</h3>
 						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						</p>
 						<a href="#">Read More></a>
 					</div>
-					<!--Activities box-1  END-->
-
-					<!--Activities box-1 START-->
-					<div class="activities-box">
-						<div class="activities-img4"></div>
-						<h1>foreign ownership</h1>
-						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<a href="#">Read More></a>
-					</div>
-					<!--Activities box-1  END-->
 					
+					<div class="activities-box">
+						<img src="img/icon-ownership.jpg"/>
+						<h3>foreign ownership</h3>
+						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</p>
+						<a href="#">Read More></a>
+					</div>
 				</div>
 			</div>
 
 			<div class="row properties">
 				<div class="container">
 					
-					<h1>Our Properties</h1>
-
-					<!--Properties 1st box START-->
+					<h3><span>O</span>ur <span>P</span>roperties</h3>
 					<div class="img-box">
 						<a href="#" target="_blank" class="anchor-hover">
 							<img src="img/properties/prop1.JPG" width="340" height="260">
@@ -95,9 +88,6 @@
 						</a>
 						<div class="shadow"><img src="img/property-shadow.png"></div>
 					</div>
-					<!--Properties 1st box END-->
-
-					<!--Properties 2nd box START-->
 					<div class="img-box">
 						<a href="#" target="_blank" class="anchor-hover">
 							<img src="img/properties/prop2.JPG" width="340" height="260">
@@ -109,9 +99,6 @@
 						</a>
 						<div class="shadow"><img src="img/property-shadow.png"></div>
 					</div>
-					<!--Properties 2nd box END-->
-
-					<!--Properties 3rd box START-->
 					<div class="img-box">
 						<a href="#" target="_blank" class="anchor-hover">
 							<img src="img/properties/prop3.JPG" width="340" height="260">

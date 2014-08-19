@@ -1,4 +1,4 @@
-@charset "IBM437";
+@charset "UTF-8";
 /**
  * $VITAMINS
  * ==========================================================================
@@ -1977,7 +1977,7 @@ td {
 .specialty span {
   font-size: 26px;
 }
-.specialty h1 {
+.specialty h3 {
   margin: 0 auto;
   margin-top: 75px;
   font-family: 'baja-serif-bold';
@@ -2006,50 +2006,17 @@ td {
 }
 
 .ctas {
-  height: 540px;
-}
-.ctas img {
-  margin-top: 75px;
+  margin: 120px 0;
 }
 
 .activities-box {
   float: left;
   width: 260px;
-  height: 325px;
   margin-left: 25px;
-  margin-top: 25px;
   text-align: center;
   color: #000000;
 }
-.activities-box .activities-img1 {
-  width: 145px;
-  height: 157px;
-  margin-top: 15px;
-  background-image: url("../img/icon-beach-front.jpg");
-  margin: 0 auto;
-}
-.activities-box .activities-img2 {
-  width: 145px;
-  height: 157px;
-  margin-top: 15px;
-  background-image: url("../img/icon-beach-land.jpg");
-  margin: 0 auto;
-}
-.activities-box .activities-img3 {
-  width: 145px;
-  height: 157px;
-  margin-top: 15px;
-  background-image: url("../img/icon-development.jpg");
-  margin: 0 auto;
-}
-.activities-box .activities-img4 {
-  width: 145px;
-  height: 157px;
-  margin-top: 15px;
-  background-image: url("../img/icon-ownership.jpg");
-  margin: 0 auto;
-}
-.activities-box h1 {
+.activities-box h3 {
   margin-top: 10px;
   font-family: 'baja-sans-bold';
   font-size: 16px;
@@ -2079,7 +2046,7 @@ td {
   height: 895px;
   background: url("../img/sand-background.jpg") center top no-repeat;
 }
-.properties h1 {
+.properties h3 {
   font-family: 'baja-serif-bold';
   font-size: 26px;
   color: #ec9224;
@@ -2087,6 +2054,9 @@ td {
   text-align: center;
   margin-bottom: -25px;
   padding-top: 65px;
+}
+.properties h3 span {
+  font-size: 30px;
 }
 .properties .img-box {
   float: left;
