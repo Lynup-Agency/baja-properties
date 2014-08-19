@@ -34,52 +34,88 @@
 				<div class="container">
 					
 					<h1>Our Properties</h1>
-					
+
 					<!--Properties 1st box START-->
 					<div class="img-box">
-						<a href="events-zah-day.php">
+						<a href="#" target="_blank" class="anchor-hover">
 							<img src="img/properties/prop1.JPG" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more">View More</span>
+                            </span>
 						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
 					</div>
 					<!--Properties 1st box END-->
 
 					<!--Properties 2nd box START-->
 					<div class="img-box">
-						<a href="events-zah-day.php">
+						<a href="#" target="_blank" class="anchor-hover">
 							<img src="img/properties/prop2.JPG" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more">View More</span>
+                            </span>
 						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
 					</div>
 					<!--Properties 2nd box END-->
 
 					<!--Properties 3rd box START-->
 					<div class="img-box">
-						<a href="events-zah-day.php">
+						<a href="#" target="_blank" class="anchor-hover">
 							<img src="img/properties/prop3.JPG" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more">View More</span>
+                            </span>
 						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
 					</div>
 					<!--Properties 3rdbox END-->
 
 					<!--Properties 1st box START-->
 					<div class="img-box">
-						<a href="events-zah-day.php">
+						<a href="#" target="_blank" class="anchor-hover">
 							<img src="img/properties/prop4.JPG" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more">View More</span>
+                            </span>
 						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
 					</div>
 					<!--Properties 1st box END-->
 
 					<!--Properties 2nd box START-->
 					<div class="img-box">
-						<a href="events-zah-day.php">
+						<a href="#" target="_blank" class="anchor-hover">
 							<img src="img/properties/prop5.JPG" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more">View More</span>
+                            </span>
 						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
 					</div>
 					<!--Properties 2nd box END-->
 
 					<!--Properties 3rd box START-->
 					<div class="img-box">
-						<a href="events-zah-day.php">
+						<a href="#" target="_blank" class="anchor-hover">
 							<img src="img/properties/prop6.JPG" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more">View More</span>
+                            </span>
 						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
 					</div>
 					<!--Properties 3rdbox END-->
 
