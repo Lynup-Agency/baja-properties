@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "IBM437";
 /**
  * $VITAMINS
  * ==========================================================================
@@ -1973,6 +1973,36 @@ td {
   height: 265px;
   background-color: #ec9224;
   background: url("../img/sand-bg.jpg") center top no-repeat;
+}
+.specialty span {
+  font-size: 26px;
+}
+.specialty h1 {
+  margin: 0 auto;
+  margin-top: 75px;
+  font-family: 'baja-serif-bold';
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.specialty hr {
+  background-color: #343434;
+  height: 1.5px;
+  border: none;
+  width: 85%;
+}
+.specialty h2 {
+  margin-top: 15px;
+  text-align: center;
+  font-family: 'baja-sans-light';
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  color: #fff;
+  letter-spacing: 0.01em;
+  text-align: center;
 }
 
 .ctas {
