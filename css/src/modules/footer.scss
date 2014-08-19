@@ -7,7 +7,8 @@
 .footer {
 	height: 270px;
 	color: $copy-light;
-	background: $baja-gray url("../img/footer-template.jpg") center top no-repeat;
+	// background: $baja-gray url("../img/footer-template.jpg") center top no-repeat;
+	background: $baja-gray;
 	padding-left: 40px;
 }
 
@@ -93,7 +94,7 @@
 	color: #ec9224;
 	margin-top: 40px;
 	padding-bottom: 20px;
-
+	letter-spacing: 0.03em;
 }
 .contact-address {
 	float: left;

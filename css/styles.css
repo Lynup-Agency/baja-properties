@@ -1,4 +1,4 @@
-@charset "IBM437";
+@charset "UTF-8";
 /**
  * $VITAMINS
  * ==========================================================================
@@ -1759,7 +1759,7 @@ td {
 .footer {
   height: 270px;
   color: white;
-  background: #343434 url("../img/footer-template.jpg") center top no-repeat;
+  background: #343434;
   padding-left: 40px;
 }
 
@@ -1845,6 +1845,7 @@ td {
   color: #ec9224;
   margin-top: 40px;
   padding-bottom: 20px;
+  letter-spacing: 0.03em;
 }
 
 .contact-address {
