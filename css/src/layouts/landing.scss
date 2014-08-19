@@ -15,6 +15,73 @@
 
 	img{ margin-top: 75px; }
 }
+.activities-box {
+	float: left;
+	width: 260px;
+	height: 325px;	
+	margin-left: 25px;
+	margin-top: 25px;
+	text-align: center;
+	color: #000000;
+
+	.activities-img1 {
+		width: 145px;
+		height: 157px;
+		margin-top: 15px;
+		background-image: url('../img/icon-beach-front.jpg');
+		margin: 0 auto;
+	}
+	.activities-img2 {
+		width: 145px;
+		height: 157px;
+		margin-top: 15px;
+		background-image: url('../img/icon-beach-land.jpg');
+		margin: 0 auto;
+	}
+	.activities-img3 {
+		width: 145px;
+		height: 157px;
+		margin-top: 15px;
+		background-image: url('../img/icon-development.jpg');
+		margin: 0 auto;
+	}
+	.activities-img4 {
+		width: 145px;
+		height: 157px;
+		margin-top: 15px;
+		background-image: url('../img/icon-ownership.jpg');
+		margin: 0 auto;
+	}
+
+	h1 {
+	margin-top: 10px;
+	font-family: 'baja-sans-bold';
+	font-size: 16px;
+	letter-spacing: 0.03em;	
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	}
+
+	.act-txt {
+	font-family: 'baja-sans-light';
+	font-size: 16px;	
+	line-height: 16px;
+	margin-bottom: 10px;
+	}
+
+	a:link {
+	    color: #ec9224;
+		text-decoration: none;
+		transition: all 0.5s ease;
+	}
+	a:visited {
+	    color: #ec9224;
+	}
+	a:hover {
+	    color: #343434;
+	}
+
+}
 
 .properties{
 	height: 895px;
@@ -26,8 +93,8 @@
 	color: #ec9224;
 	letter-spacing: 0.03em;	
 	text-align: center;
-	margin-bottom: -15px;
-	padding-top: 50px;
+	margin-bottom: -25px;
+	padding-top: 65px;
 	}
 	.img-box {	
 	float: left;
@@ -54,56 +121,56 @@
 	-o-transition: box-shadow 0.3s linear 0s; 
 
 	}
-	.anchor-hover { display: block; position: relative; }
-	.anchor-hover img { position: relative; }
-	.anchor-hover .details {
-		opacity: 0;
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		width: 340px;
-		height: 260px;
-		margin: 0;
-		padding-top: 10px;
-		padding-left: 10px;
-		font-size: 1.2em;
-		line-height: 1.4em;
-		text-decoration: none;
-		color: #888;
-		background-image: url("../img/prop-over.png");
-		overflow: hidden;
-		transition: opacity 0.25s linear 0s;
-		-webkit-transition: opacity 0.25s linear 0s;
-		-moz-transition: opacity 0.25s linear 0s;
-		-o-transition: opacity 0.25s linear 0s;
-	}
+		.anchor-hover { display: block; position: relative; }
+		.anchor-hover img { position: relative; }
+		.anchor-hover .details {
+			opacity: 0;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 340px;
+			height: 260px;
+			margin: 0;
+			padding-top: 10px;
+			padding-left: 10px;
+			font-size: 1.2em;
+			line-height: 1.4em;
+			text-decoration: none;
+			color: #888;
+			background-image: url("../img/prop-over.png");
+			overflow: hidden;
+			transition: opacity 0.25s linear 0s;
+			-webkit-transition: opacity 0.25s linear 0s;
+			-moz-transition: opacity 0.25s linear 0s;
+			-o-transition: opacity 0.25s linear 0s;
+		}
 
-	.anchor-hover .details h2 { 
-		text-decoration: none; 
-		margin-bottom: 8px;
-		font-family: 'baja-serif-bold';
-		font-size: 20px;
-		color: #fff;
-		text-align: center;
-		letter-spacing: 0.03em;	
-		margin-top: 30px;
-	 }
-	.anchor-hover .details p.desc { 
-		font-weight: normal; 
-		font-size: 18px; 
-		line-height: 0.5em; 
-		color: #fff; 
-		font-family: 'baja-sans-reg';	
-		text-align: center;	
-		margin-bottom: 95px;
-	}
-	.anchor-hover .details span.more {  
-		color: #fff; 
-		font-family: 'baja-sans-reg';	
-		text-align: center;	
-		margin-left: 120px;
- }
+		.anchor-hover .details h2 { 
+			text-decoration: none; 
+			margin-bottom: 8px;
+			font-family: 'baja-serif-bold';
+			font-size: 20px;
+			color: #fff;
+			text-align: center;
+			letter-spacing: 0.03em;	
+			margin-top: 30px;
+		 }
+		.anchor-hover .details p.desc { 
+			font-weight: normal; 
+			font-size: 18px; 
+			line-height: 0.5em; 
+			color: #fff; 
+			font-family: 'baja-sans-reg';	
+			text-align: center;	
+			margin-bottom: 95px;
+		}
+		.anchor-hover .details span.more {  
+			color: #fff; 
+			font-family: 'baja-sans-reg';	
+			text-align: center;	
+			margin-left: 120px;
+	 	}
+		.anchor-hover:hover .details { opacity: 1; }
 
-
-.anchor-hover:hover .details { opacity: 1; }
 }
+

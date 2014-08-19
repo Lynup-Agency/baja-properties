@@ -26,7 +26,46 @@
 
 			<div class="row ctas">
 				<div class="container">
-					<img src="img/ctas-fpo.jpg"/>
+					<!--Activities box-1 START-->
+					<div class="activities-box">
+						<div class="activities-img1"></div>
+						<h1>Beach front homes</h1>
+						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</p>
+						<a href="#">Read More></a>
+					</div>
+					<!--Activities box-1  END-->
+
+					<!--Activities box-1 START-->
+					<div class="activities-box">
+						<div class="activities-img2"></div>
+						<h1>Beach front land</h1>
+						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</p>
+						<a href="#">Read More></a>
+					</div>
+					<!--Activities box-1  END-->
+
+					<!--Activities box-1 START-->
+					<div class="activities-box">
+						<div class="activities-img3"></div>
+						<h1>Land development</h1>
+						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</p>
+						<a href="#">Read More></a>
+					</div>
+					<!--Activities box-1  END-->
+
+					<!--Activities box-1 START-->
+					<div class="activities-box">
+						<div class="activities-img4"></div>
+						<h1>foreign ownership</h1>
+						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</p>
+						<a href="#">Read More></a>
+					</div>
+					<!--Activities box-1  END-->
+					
 				</div>
 			</div>
 
