@@ -1,4 +1,4 @@
-@charset "IBM437";
+@charset "UTF-8";
 /**
  * $VITAMINS
  * ==========================================================================
@@ -1862,20 +1862,6 @@ td {
   font-size: 16px;
   line-height: 20px;
 }
-@media only screen and (max-width: 1024px) {
-  .footer .footer-box {
-    width: 228px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .footer .footer-box {
-    margin-left: 105px;
-    margin-bottom: -55px;
-    border-bottom: 1px #fff solid;
-    border-bottom: 80%;
-    width: 340px;
-  }
-}
 .footer .footer-divider {
   float: left;
   width: 20px;
@@ -1884,10 +1870,9 @@ td {
   margin-top: 40px;
   margin-right: 20px;
 }
-@media only screen and (max-width: 768px) {
-  .footer .footer-divider {
-    border: none;
-  }
+.footer .footer-txt {
+  float: left;
+  width: 290px;
 }
 .footer .social-box-fb {
   float: left;
@@ -1936,11 +1921,6 @@ td {
 .footer .footer-heading span {
   font-size: 22px;
 }
-@media only screen and (max-width: 768px) {
-  .footer .footer-heading {
-    text-align: center;
-  }
-}
 .footer .contact-address {
   float: left;
   height: 35px;
@@ -1981,11 +1961,6 @@ td {
   list-style-type: none;
   margin-left: 0px;
   margin-right: 50px;
-}
-@media only screen and (max-width: 1024px) {
-  .footer ul {
-    margin-bottom: 0px;
-  }
 }
 .footer ul a:link {
   color: #fff;
@@ -2198,6 +2173,7 @@ td {
   color: #fff;
   font-family: 'baja-sans-reg';
   text-align: center;
+  margin-left: 120px;
 }
 .properties .anchor-hover:hover .details {
   opacity: 1;
