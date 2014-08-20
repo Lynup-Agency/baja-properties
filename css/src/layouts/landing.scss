@@ -15,7 +15,7 @@
 
 	h3 {
 	margin: 0 auto;
-	margin-top: 75px;
+	padding-top: 75px;
 	font-family: 'baja-serif-bold';
 	font-size: 24px;
 	color: #fff;
@@ -46,12 +46,24 @@
 
 .ctas{ margin: 120px 0; }
 
+.activity-box-wrapper{
+	// border: thin red solid;
+	width: auto;
+	text-align: center;
+}
+
 .activities-box {
-	float: left;
+	display: inline-block;
 	width: 260px;
-	margin-left: 25px;
+	// margin-left: 25px;
 	text-align: center;
 	color: #000000;
+
+	@include media-query(portable){
+		margin: 20px 0;
+	}
+
+
 
 	h3 {
 		margin-top: 10px;
@@ -86,8 +98,12 @@
 
 
 .properties{
-	height: 895px;
-	background: url("../img/sand-background.jpg") center top no-repeat;
+	min-height: 895px;
+	background: $baja-sand url("../img/sand-background.jpg") center bottom no-repeat;
+
+	.container {
+		text-align: center;
+	}
 
 	h3 {
 		font-family: 'baja-serif-bold';
@@ -95,25 +111,23 @@
 		color: #ec9224;
 		letter-spacing: 0.03em;	
 		text-align: center;
-		margin-bottom: -25px;
+		
 		padding-top: 65px;
 		span{
 			font-size: 30px;
 		}
 	}
 	.img-box {	
-		float: left;
+		display: inline-block;
 		width: 350px;
-		height: 270px;
-		
+		height: 270px;		
 		border: 4px solid #fff;
 		padding-left: 5 px;
 		padding-top: 5 px;
 		padding-right: 5px;
 		margin-left: 25px;
-		margin-top: 100px;
+		margin-top: 50px;
 
-		display: block; 
 		background: #fff; 
 
 		-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
@@ -124,6 +138,16 @@
 		-webkit-transition: box-shadow 0.3s linear 0s;
 		-moz-transition: box-shadow 0.3s linear 0s;
 		-o-transition: box-shadow 0.3s linear 0s; 
+
+
+		@include media-query(portable){
+			margin: 15px;
+		}
+
+		@include media-query(palm){
+			margin-left: 0;
+			margin-right: 0;
+		}
 
 	}
 		.anchor-hover { display: block; position: relative; }

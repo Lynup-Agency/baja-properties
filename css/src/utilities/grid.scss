@@ -58,10 +58,25 @@
 
 .row{
     width: 100%; 
+
+    // @include media-query(portable){ width: 768px; }
+
+    // @include media-query(palm){ width: 640px; }
  }
 
  .container{
-    overflow:hidden;
+    width: 1140px;
+    // overflow:auto;
+    padding: 0;
+    // margin: 0;
+
+    @include media-query(portable){ width: 768px; }
+
+    @include media-query(palm){ width: 640px; }
+ }
+
+ div{
+    // border: thin red solid;
  }
 
 

@@ -1514,7 +1514,18 @@ td {
 }
 
 .container {
-  overflow: hidden;
+  width: 1140px;
+  padding: 0;
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 768px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 640px;
+  }
 }
 
 /**
@@ -1759,25 +1770,6 @@ td {
   top: -6px;
   margin-left: 23px;
 }
-.masthead-wrapper .nav {
-  color: white;
-  display: inline-block;
-  float: right;
-  font-family: 'baja-serif-bold';
-  font-size: 14px;
-  letter-spacing: 0.06em;
-  margin-right: 24px;
-  margin-top: 95px;
-}
-.masthead-wrapper .nav a, .masthead-wrapper .nav a:link {
-  color: white;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  padding: 0 3px;
-}
-.masthead-wrapper .nav a:hover {
-  color: #ec9224;
-}
 .masthead-wrapper .ocean-views-btn {
   width: 520px;
   height: 80px;
@@ -1785,6 +1777,12 @@ td {
   margin-top: 288px;
   background-color: #ec9224;
   text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+  .masthead-wrapper .ocean-views-btn {
+    margin-top: 610px;
+    width: auto;
+  }
 }
 .masthead-wrapper .ocean-views-btn .btn-copy {
   color: white;
@@ -1807,6 +1805,33 @@ td {
  * ==========================================================================
  * This is the main navbar shown at the top of the page.
  */
+.nav {
+  color: white;
+  display: inline-block;
+  float: right;
+  font-family: 'baja-serif-bold';
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  margin-right: 24px;
+  margin-top: 95px;
+}
+@media only screen and (max-width: 1024px) {
+  .nav {
+    float: none;
+    margin-top: 15px;
+    margin-left: -10px;
+  }
+}
+.nav a, .nav a:link {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0 3px;
+}
+.nav a:hover {
+  color: #ec9224;
+}
+
 /**
  * $INTERLUDE
  * ==========================================================================
@@ -1956,7 +1981,7 @@ td {
   font-family: 'baja-sans-light';
   height: 40px;
   padding-top: 12px;
-  font-size: 10px;
+  font-size: 12px;
   background-color: #ec9224;
 }
 
@@ -1979,7 +2004,7 @@ td {
 }
 .specialty h3 {
   margin: 0 auto;
-  margin-top: 75px;
+  padding-top: 75px;
   font-family: 'baja-serif-bold';
   font-size: 24px;
   color: #fff;
@@ -2009,12 +2034,21 @@ td {
   margin: 120px 0;
 }
 
+.activity-box-wrapper {
+  width: auto;
+  text-align: center;
+}
+
 .activities-box {
-  float: left;
+  display: inline-block;
   width: 260px;
-  margin-left: 25px;
   text-align: center;
   color: #000000;
+}
+@media only screen and (max-width: 1024px) {
+  .activities-box {
+    margin: 20px 0;
+  }
 }
 .activities-box h3 {
   margin-top: 10px;
@@ -2043,8 +2077,11 @@ td {
 }
 
 .properties {
-  height: 895px;
-  background: url("../img/sand-background.jpg") center top no-repeat;
+  min-height: 895px;
+  background: #f1dfd1 url("../img/sand-background.jpg") center bottom no-repeat;
+}
+.properties .container {
+  text-align: center;
 }
 .properties h3 {
   font-family: 'baja-serif-bold';
@@ -2052,14 +2089,13 @@ td {
   color: #ec9224;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: -25px;
   padding-top: 65px;
 }
 .properties h3 span {
   font-size: 30px;
 }
 .properties .img-box {
-  float: left;
+  display: inline-block;
   width: 350px;
   height: 270px;
   border: 4px solid #fff;
@@ -2067,14 +2103,24 @@ td {
   padding-top: 5 px;
   padding-right: 5px;
   margin-left: 25px;
-  margin-top: 100px;
-  display: block;
+  margin-top: 50px;
   background: #fff;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s linear 0s;
   -webkit-transition: box-shadow 0.3s linear 0s;
   -moz-transition: box-shadow 0.3s linear 0s;
   -o-transition: box-shadow 0.3s linear 0s;
+}
+@media only screen and (max-width: 1024px) {
+  .properties .img-box {
+    margin: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .properties .img-box {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 .properties .anchor-hover {
   display: block;

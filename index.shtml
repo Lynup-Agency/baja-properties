@@ -39,36 +39,38 @@
 
 			<div class="row ctas">
 				<div class="container">
-					<div class="activities-box">
-						<img src="img/icon-beach-front.jpg"/>
-						<h3>Beach front homes</h3>
-						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<a href="#">Read More></a>
-					</div>
+					<div class="activity-box-wrapper">
+						<div class="activities-box">
+							<img src="img/icon-beach-front.jpg"/>
+							<h3>Beach front homes</h3>
+							<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+							<a href="#">Read More></a>
+						</div>
 
-					<div class="activities-box">
-						<img src="img/icon-beach-land.jpg"/>
-						<h3>Beach front land</h3>
-						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<a href="#">Read More></a>
-					</div>
+						<div class="activities-box">
+							<img src="img/icon-beach-land.jpg"/>
+							<h3>Beach front land</h3>
+							<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+							<a href="#">Read More></a>
+						</div>
 
-					<div class="activities-box">
-						<img src="img/icon-development.jpg"/>
-						<h3>Land development</h3>
-						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<a href="#">Read More></a>
-					</div>
-					
-					<div class="activities-box">
-						<img src="img/icon-ownership.jpg"/>
-						<h3>foreign ownership</h3>
-						<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<a href="#">Read More></a>
+						<div class="activities-box">
+							<img src="img/icon-development.jpg"/>
+							<h3>Land development</h3>
+							<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+							<a href="#">Read More></a>
+						</div>
+						
+						<div class="activities-box">
+							<img src="img/icon-ownership.jpg"/>
+							<h3>foreign ownership</h3>
+							<p class="act-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+							<a href="#">Read More></a>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -23,29 +23,6 @@
 		}
 	}
 
-
-	.nav{
-		color: white;
-	    display: inline-block;
-	    float: right;
-	    font-family: 'baja-serif-bold';
-	    font-size: 14px;
-	    letter-spacing: 0.06em;
-	    margin-right: 24px;
-	    margin-top: 95px;
-
-		a, a:link{ 
-			color: white; 
-			text-decoration: none;
-			transition: all 0.3s ease;
-			padding: 0 3px;
-		}
-
-		a:hover{
-			color: $baja-orange;
-		}
-	}
-
 	.ocean-views-btn{
 		width: 520px;
 		height: 80px;
@@ -53,6 +30,11 @@
 		margin-top: 288px;
 		background-color: $baja-orange;
 		text-align: center;
+
+		@include media-query(portable){
+			margin-top: 610px;
+			width: auto;
+		}
 
 		.btn-copy{
 			color: white;
