@@ -79,7 +79,7 @@
 					<h3><span>O</span>ur <span>P</span>roperties</h3>
 					<div class="img-box">
 						<a href="#" target="_blank" class="anchor-hover">
-							<img src="img/properties/prop1.JPG" width="340" height="260">
+							<img src="img/properties/prop1.jpg" width="340" height="260">
 							<span class="details">
                                 <h2>La Mision</h2>
                                 <p class="desc">Ensenada Baja California, Mexico</p>
@@ -90,7 +90,7 @@
 					</div>
 					<div class="img-box">
 						<a href="#" target="_blank" class="anchor-hover">
-							<img src="img/properties/prop2.JPG" width="340" height="260">
+							<img src="img/properties/prop2.jpg" width="340" height="260">
 							<span class="details">
                                 <h2>La Mision</h2>
                                 <p class="desc">Ensenada Baja California, Mexico</p>
@@ -101,7 +101,7 @@
 					</div>
 					<div class="img-box">
 						<a href="#" target="_blank" class="anchor-hover">
-							<img src="img/properties/prop3.JPG" width="340" height="260">
+							<img src="img/properties/prop3.jpg" width="340" height="260">
 							<span class="details">
                                 <h2>La Mision</h2>
                                 <p class="desc">Ensenada Baja California, Mexico</p>
@@ -115,7 +115,7 @@
 					<!--Properties 1st box START-->
 					<div class="img-box">
 						<a href="#" target="_blank" class="anchor-hover">
-							<img src="img/properties/prop4.JPG" width="340" height="260">
+							<img src="img/properties/prop4.jpg" width="340" height="260">
 							<span class="details">
                                 <h2>La Mision</h2>
                                 <p class="desc">Ensenada Baja California, Mexico</p>
@@ -129,7 +129,7 @@
 					<!--Properties 2nd box START-->
 					<div class="img-box">
 						<a href="#" target="_blank" class="anchor-hover">
-							<img src="img/properties/prop5.JPG" width="340" height="260">
+							<img src="img/properties/prop5.jpg" width="340" height="260">
 							<span class="details">
                                 <h2>La Mision</h2>
                                 <p class="desc">Ensenada Baja California, Mexico</p>
@@ -143,7 +143,7 @@
 					<!--Properties 3rd box START-->
 					<div class="img-box">
 						<a href="#" target="_blank" class="anchor-hover">
-							<img src="img/properties/prop6.JPG" width="340" height="260">
+							<img src="img/properties/prop6.jpg" width="340" height="260">
 							<span class="details">
                                 <h2>La Mision</h2>
                                 <p class="desc">Ensenada Baja California, Mexico</p>

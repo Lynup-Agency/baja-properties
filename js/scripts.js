@@ -5,7 +5,7 @@ $(document).ready(function(){
 */  
 	var initialBg =  $('#rotator').css("background-image"); 
 	var firstTime = true;
-	var arr = [initialBg, "url(../img/banners/family-fun.jpg)", "url(../img/banners/fantastic-restaurants.jpg)", "url(../img/banners/fun-adventures.jpg)", "url(../img/banners/luxury-golfing.jpg)"];
+	var arr = [initialBg, "url(img/banners/family-fun.jpg)", "url(img/banners/fantastic-restaurants.jpg)", "url(img/banners/fun-adventures.jpg)", "url(img/banners/luxury-golfing.jpg)"];
     (function recurse(counter) {
         var bgImage = arr[counter];
         if (firstTime == false) {
@@ -23,5 +23,6 @@ $(document).ready(function(){
         }, 7000);
     })(0);
 /* -------------------------------------------------------------------- */
+
 
 });
