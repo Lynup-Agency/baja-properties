@@ -7,11 +7,17 @@
 .footer {
 	color: $copy-light;
 	background: $baja-gray;
-	padding-left: 40px;
+	
 	padding-bottom: 20px;
 
+	
+	.footer-wrapper {
+		text-align: center;
+
+	}
 	.footer-box {
-		float: left;
+		display: inline-block;
+		vertical-align: top;
 		margin-top: 20px;
 		width: 340px;
 		height: 240px;
@@ -21,19 +27,36 @@
 		letter-spacing: 0.02em;
 		font-size: 16px;
 		line-height: 20px;
+		text-align: left;
+
+		@include media-query(portable){
+		width: 228px;
+		}
+
+		@include media-query(palm){
+		//display: block;
+		border-bottom: 1px #fff solid;
+		width: 400px;
+		}
+
+
 	}
 	.footer-divider {
-		float: left;
+		display: inline-block;
+		vertical-align: top;
 		width: 20px;
 		height: 180px;
 		border-right: 1px solid #fff;
 		margin-top: 40px;
 		margin-right: 20px;
+
+		@include media-query(palm){
+		border: none;
+		width: 0px;
+		margin-right: 0px;
+		}
 	}
-	.footer-txt {
-		float: left;
-		width:290px;
-	}
+
 	.social-box-fb {
 		float: left;
 		width: 39px;
@@ -85,6 +108,8 @@
 		span{
 			font-size: 22px;
 		}
+
+		
 	}
 	.contact-address {
 		float: left;
@@ -126,6 +151,10 @@
 		list-style-type:none;
 		margin-left: 0px;
 		margin-right: 50px;
+
+		@include media-query(portable){
+		margin-bottom: 0px;
+		}
 	}
 	ul a:link {
 	    color: #fff;

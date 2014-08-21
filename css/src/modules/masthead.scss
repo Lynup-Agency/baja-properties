@@ -13,9 +13,12 @@
 	background-color: #5c90cc;
 
 	.logo-lockup{		
-		margin-left: -17px;
 		margin-top: 45px;
 		display: inline-block;
+
+		@include media-query(portable){
+			margin-left: 10px;
+		}
 
 		.logo{			
 			top: -6px;
@@ -26,7 +29,6 @@
 	.ocean-views-btn{
 		width: 520px;
 		height: 80px;
-		margin-left: -20px;
 		margin-top: 288px;
 		background-color: $baja-orange;
 		text-align: center;

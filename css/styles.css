@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "IBM437";
 /**
  * $VITAMINS
  * ==========================================================================
@@ -1514,18 +1514,8 @@ td {
 }
 
 .container {
-  width: 1140px;
+  width: 100%;
   padding: 0;
-}
-@media only screen and (max-width: 1024px) {
-  .container {
-    width: 768px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .container {
-    width: 640px;
-  }
 }
 
 /**
@@ -1762,9 +1752,13 @@ td {
   background-color: #5c90cc;
 }
 .masthead-wrapper .logo-lockup {
-  margin-left: -17px;
   margin-top: 45px;
   display: inline-block;
+}
+@media only screen and (max-width: 1024px) {
+  .masthead-wrapper .logo-lockup {
+    margin-left: 10px;
+  }
 }
 .masthead-wrapper .logo-lockup .logo {
   top: -6px;
@@ -1773,7 +1767,6 @@ td {
 .masthead-wrapper .ocean-views-btn {
   width: 520px;
   height: 80px;
-  margin-left: -20px;
   margin-top: 288px;
   background-color: #ec9224;
   text-align: center;
@@ -1819,7 +1812,7 @@ td {
   .nav {
     float: none;
     margin-top: 15px;
-    margin-left: -10px;
+    margin-left: 10px;
   }
 }
 .nav a, .nav a:link {
@@ -1847,11 +1840,14 @@ td {
 .footer {
   color: white;
   background: #343434;
-  padding-left: 40px;
   padding-bottom: 20px;
 }
+.footer .footer-wrapper {
+  text-align: center;
+}
 .footer .footer-box {
-  float: left;
+  display: inline-block;
+  vertical-align: top;
   margin-top: 20px;
   width: 340px;
   height: 240px;
@@ -1861,18 +1857,34 @@ td {
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 20px;
+  text-align: left;
+}
+@media only screen and (max-width: 1024px) {
+  .footer .footer-box {
+    width: 228px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer .footer-box {
+    border-bottom: 1px #fff solid;
+    width: 400px;
+  }
 }
 .footer .footer-divider {
-  float: left;
+  display: inline-block;
+  vertical-align: top;
   width: 20px;
   height: 180px;
   border-right: 1px solid #fff;
   margin-top: 40px;
   margin-right: 20px;
 }
-.footer .footer-txt {
-  float: left;
-  width: 290px;
+@media only screen and (max-width: 768px) {
+  .footer .footer-divider {
+    border: none;
+    width: 0px;
+    margin-right: 0px;
+  }
 }
 .footer .social-box-fb {
   float: left;
@@ -1961,6 +1973,11 @@ td {
   list-style-type: none;
   margin-left: 0px;
   margin-right: 50px;
+}
+@media only screen and (max-width: 1024px) {
+  .footer ul {
+    margin-bottom: 0px;
+  }
 }
 .footer ul a:link {
   color: #fff;
