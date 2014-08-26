@@ -1793,6 +1793,24 @@ td {
   position: absolute;
 }
 
+.inner-masthead {
+  height: 190px;
+  background-color: #343434;
+}
+.inner-masthead .logo-lockup {
+  top: 33px;
+  position: relative;
+}
+.inner-masthead .logo-lockup .remax img {
+  height: 110px;
+}
+.inner-masthead .logo-lockup .logo {
+  margin-left: 15px;
+}
+.inner-masthead .logo-lockup .logo img {
+  height: 100px;
+}
+
 /**
  * $NAVBAR
  * ==========================================================================
@@ -1807,6 +1825,7 @@ td {
   letter-spacing: 0.06em;
   margin-right: 24px;
   margin-top: 95px;
+  z-index: 5;
 }
 @media only screen and (max-width: 1024px) {
   .nav {
@@ -2199,6 +2218,35 @@ td {
 }
 .properties .anchor-hover:hover .details {
   opacity: 1;
+}
+
+/**
+ * $ABOUT
+ * ==========================================================================
+ * This is a placeholder and example for a view.
+ */
+.page-head {
+  height: 180px;
+  background-color: #ec9224;
+  background: url("../img/sand-bg.jpg") center bottom no-repeat;
+  text-align: center;
+}
+.page-head span {
+  font-size: 26px;
+}
+.page-head h3 {
+  margin: 0 auto;
+  padding-top: 75px;
+  font-family: 'baja-serif-bold';
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.offices {
+  min-height: 710px;
 }
 
 /*# sourceMappingURL=styles.css.map */

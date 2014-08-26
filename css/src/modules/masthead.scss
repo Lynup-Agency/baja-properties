@@ -57,3 +57,23 @@
 	position: absolute;
 }
 
+.inner-masthead{
+	height: 190px;
+	background-color: $baja-gray;
+
+	.logo-lockup{
+		top: 33px;
+		position: relative;
+
+		.remax{
+			img{ height: 110px; }
+		}
+		.logo{
+			margin-left: 15px;
+			img{ height: 100px; }
+		}
+	}
+}
+
+
+

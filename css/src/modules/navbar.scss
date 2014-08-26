@@ -4,31 +4,30 @@
  * This is the main navbar shown at the top of the page.
  */
 .nav{
-		color: white;
-	    display: inline-block;
-	    float: right;
-	    font-family: 'baja-serif-bold';
-	    font-size: 14px;
-	    letter-spacing: 0.06em;
-	    margin-right: 24px;
-	    margin-top: 95px;
+	color: white;
+    display: inline-block;
+    float: right;
+    font-family: 'baja-serif-bold';
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    margin-right: 24px;
+    margin-top: 95px;
+    z-index: 5;
 
-	    @include media-query(portable){
-	    	float: none;
-	    	margin-top: 15px;
-	    	margin-left: 10px;
-	    }
+    @include media-query(portable){
+    	float: none;
+    	margin-top: 15px;
+    	margin-left: 10px;
+    }
 
-	
-
-		a, a:link{ 
-			color: white; 
-			text-decoration: none;
-			transition: all 0.3s ease;
-			padding: 0 3px;
-		}
-
-		a:hover{
-			color: $baja-orange;
-		}
+	a, a:link{ 
+		color: white; 
+		text-decoration: none;
+		transition: all 0.3s ease;
+		padding: 0 3px;
 	}
+
+	a:hover{
+		color: $baja-orange;
+	}
+}
