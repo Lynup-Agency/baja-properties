@@ -23,10 +23,47 @@
 
 			<div class="row ctas">
 				<div class="container">
-					
-					<!-- copy here -->
+					<!--Column left start-->
+					<div class="column">
+						<div class="heading"><span>O</span>ur <span>S</span>tory</div>
+
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quam sem, varius nec urna quis, venenatis malesuada nisl. Ut pretium sapien sem, sit amet pharetra velit sagittis id. Aenean elit massa, rutrum at sagittis a, interdum id nisl. Suspendisse eu ex sed neque pharetra cursus quis vitae nulla. Sed hendrerit sagittis massa, nec interdum tortor mollis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id congue erat.
+
+							Morbi at mauris aliquet ipsum pellentesque lacinia. Morbi et enim cursus, eleifend nisi vitae, interdum metus. Aliquam ut felis tellus. Maecenas accumsan ex a nulla ultricies sagittis. Integer sed magna at justo elementum aliquet. Aliquam laoreet varius leo. Fusce gravida scelerisque arcu, vel cursus lorem condimentum non. Donec mollis mattis sodales. Mauris aliquet lectus id ornare lobortis. Donec ut diam id nibh efficitur dapibus tincidunt nec nunc. Fusce at ligula sagittis, aliquam elit nec, fermentum lectus. Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quam sem, varius nec urna quis, venenatis malesuada nisl. Ut pretium sapien sem, sit amet pharetra velit sagittis id. Aenean elit massa, rutrum at sagittis a, interdum id nisl. Suspendisse eu ex sed neque pharetra cursus quis vitae nulla. Sed hendrerit sagittis massa, nec interdum tortor mollis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id congue erat.
+
+							Morbi at mauris aliquet ipsum pellentesque lacinia. Morbi et enim cursus, eleifend nisi vitae, interdum metus. Aliquam ut felis tellus. Maecenas accumsan ex a nulla ultricies sagittis. Integer sed magna at justo elementum aliquet. Aliquam laoreet varius leo. Fusce gravida scelerisque arcu, vel cursus lorem condimentum non. Donec mollis mattis sodales. Mauris aliquet lectus id ornare lobortis. Donec ut diam id nibh efficitur dapibus tincidunt nec nunc. Fusce at ligula sagittis, aliquam elit nec, fermentum lectus. Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+						</p>
+					</div>
+					<!--Column left end-->
+
+					<!--Column right start-->
+					<div class="column">
+
+						<div class="heading"><span>L</span>uz <span>E</span>lena <span>C</span>aballero</div>
+						<div class="position">FOUNDER / BROOKER</div>
+
+						<div class="aboutImage"></div>
+
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quam sem, varius nec urna quis, venenatis malesuada nisl. Ut pretium sapien sem, sit amet pharetra velit sagittis id. Aenean elit massa, rutrum at sagittis a, interdum id nisl. Suspendisse eu ex sed neque pharetra cursus quis vitae nulla. Sed hendrerit sagittis massa, nec interdum tortor mollis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id congue erat.
+						</p>
+
+						<hr>
+
+						<div class="heading"><span>J</span>essica <span>N</span>eyra</div>
+						<div class="position">OFFICE MANAGER</div> <br>
+
+						<div class="aboutImage"></div>
+
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quam sem, varius nec urna quis, venenatis malesuada nisl. Ut pretium sapien sem, sit amet pharetra velit sagittis id. Aenean elit massa, rutrum at sagittis a, interdum id nisl. Suspendisse eu ex sed neque pharetra cursus quis vitae nulla. Sed hendrerit sagittis massa, nec interdum tortor mollis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id congue erat.
+						</p>
 
 					</div>
+					<!--Column right end-->
 				</div>
 			</div>
 
@@ -35,6 +72,9 @@
 					
 					<h3><span>O</span>ffices</h3>
 					
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quam sem, varius nec urna quis, venenatis malesuada nisl. Ut pretium sapien sem, sit amet pharetra velit sagittis id. Aenean elit massa, rutrum at sagittis a, interdum id nisl. Suspendisse eu ex sed neque pharetra cursus quis vitae nulla. Sed hendrerit sagittis massa, nec interdum tortor mollis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id congue erat.
+					</p>
 					<!-- google map here -->
 
 				</div>
