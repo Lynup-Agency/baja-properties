@@ -2302,5 +2302,29 @@ td {
 .offices p {
   text-align: left;
 }
+@media only screen and (max-width: 1024px) {
+  .offices {
+    padding-left: 25px;
+  }
+}
+.offices .google-map {
+  width: 1138px;
+  height: 427px;
+  background-image: url(../img/location.png);
+  background-repeat: no-repeat;
+  margin-left: -5px;
+}
+@media only screen and (max-width: 1024px) {
+  .offices .google-map {
+    width: 100%;
+    background-image: url(../img/location2.png);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .offices .google-map {
+    background-image: url(../img/location1.png);
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

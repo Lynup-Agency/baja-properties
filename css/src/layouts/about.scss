@@ -83,4 +83,26 @@
 	p{
 	text-align: left;
 	}
+
+	@include media-query(portable){
+	padding-left: 25px;
+	}
+
+.google-map{
+	width: 1138px;
+	height: 427px;
+	background-image: url(../img/location.png);
+	background-repeat: no-repeat;
+	margin-left: -5px;
+
+	@include media-query(portable){
+	width:100%;
+	background-image: url(../img/location2.png);
+	}
+
+	@include media-query(palm){
+	background-image: url(../img/location1.png);
+	width:100%;
+	}
+}
 }

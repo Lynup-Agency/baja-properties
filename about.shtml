@@ -75,7 +75,8 @@
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quam sem, varius nec urna quis, venenatis malesuada nisl. Ut pretium sapien sem, sit amet pharetra velit sagittis id. Aenean elit massa, rutrum at sagittis a, interdum id nisl. Suspendisse eu ex sed neque pharetra cursus quis vitae nulla. Sed hendrerit sagittis massa, nec interdum tortor mollis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id congue erat.
 					</p>
-					<!-- google map here -->
+					
+					<div class="google-map"></div>
 
 				</div>
 			</div>
