@@ -2591,4 +2591,125 @@ hr {
   padding-bottom: 10px;
 }
 
+.label {
+  margin-bottom: 5px;
+}
+
+.contact-form {
+  background: url("../img/kontakt-form.png");
+  color: #262626;
+  padding: 5px 27px 5px 10px;
+  width: 400px;
+  outline: none;
+  border: 1px solid #DDD;
+  height: 40px;
+  margin-bottom: 5px;
+  background-repeat: repeat;
+}
+
+.contact-form-big {
+  background: url("../img/kontakt-form-big.jpg");
+  background-repeat: repeat;
+  color: #262626;
+  padding: 5px 27px 5px 10px;
+  width: 400px;
+  outline: none;
+  border: 1px solid #DDD;
+  height: 200px;
+}
+
+.button {
+  background: url("../img/button.jpg");
+  color: #fff;
+  font-weight: 700;
+  padding: 5px 27px 5px 10px;
+  width: 202px;
+  outline: none;
+  border: 0;
+  height: 43px;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+/**
+ * $CONTACT
+ * ==========================================================================
+ * This is a placeholder and example for a view.
+ */
+.social-box-fb1 {
+  float: left;
+  width: 39px;
+  height: 39px;
+  margin-right: 15px;
+  margin-top: 10px;
+  background-image: url("../img/sprite.png");
+  background-position: 0px 0px;
+}
+
+.social-box-twitter1 {
+  float: left;
+  width: 39px;
+  height: 39px;
+  margin-right: 15px;
+  margin-top: 10px;
+  background-image: url("../img/sprite.png");
+  background-position: 313px 0px;
+}
+
+.social-box-gplus1 {
+  float: left;
+  width: 39px;
+  height: 39px;
+  margin-right: 15px;
+  margin-top: 10px;
+  background-image: url("../img/sprite.png");
+  background-position: 265px 0px;
+}
+
+.social-box-yt1 {
+  float: left;
+  width: 39px;
+  height: 39px;
+  margin-right: 15px;
+  margin-top: 10px;
+  background-image: url("../img/sprite.png");
+  background-position: 217px 0px;
+}
+
+.email {
+  display: inline-block;
+  padding-left: 25px;
+  background-image: url("../img/mail.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.telephone-number {
+  display: inline-block;
+  padding-left: 25px;
+  background-image: url("../img/telephone.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.website {
+  display: inline-block;
+  padding-left: 25px;
+  background-image: url("../img/website.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 35px;
+  font-size: 16px;
+}
+
 /*# sourceMappingURL=styles.css.map */

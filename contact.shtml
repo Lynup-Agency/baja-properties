@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Baja Ocean Properties</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<meta name="robots" content="noindex">
+	</head>
+	<body>
+		<!-- Content -->	
+		<div class="site-wrapper">
+			<!--Home Page Masthead -->
+			<!--#include virtual="includes/inner-masthead.html" -->
+			<div class="row page-head">
+				<div class="container">
+					<h3><span>C</span>ontact <span>U</span>s</h3>
+				</div>
+			</div>
+
+			<div class="row ctas">
+				<div class="container">
+
+				<!--Column left start-->
+					<div class="column">
+						<div class="heading"><span>S</span>end <span>U</span>s <span>A</span> 
+						<span>M</span>essage</div>
+
+					<form name="freecontactform" method="post" action="#">
+ 
+			            <tr>
+			               <div class="label">Name</div>
+			               <input type="text" name="Full_Name" id="Full_Name" 
+			               maxlength="80" class="contact-form">
+			            </tr>
+
+			            <tr>
+			               <div class="label">Email</div>
+			               <input type="text" name="Email" id="Email" 
+			               maxlength="80" class="contact-form">
+			            </tr>
+
+			            <tr>
+			               <div class="label">Telephone</div>
+			               <input type="text" name="Telephone" id="Telephone" 
+			               maxlength="80" class="contact-form">
+			            </tr>
+
+			            <tr>
+			               <div class="label">Message</div>
+			               <textarea class="contact-form-big" name="Message" id="Message" 
+                		   maxlength="480"></textarea> 
+			            </tr>
+
+			            <p>
+			            <input type="submit" value="SEND" class="button">
+			        </form>
+							
+						
+					</div>
+				<!--Column left end-->
+
+				<!--Column right start-->
+				<div class="column">
+
+					<div class="heading"><span>W</span>e <span>W</span>ant <span>T</span>o
+						<span>H</span>ear <span>F</span>rom <span>Y</span>ou</div>
+					<br>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quam sem, varius nec urna quis, venenatis malesuada nisl. Ut pretium sapien sem, sit amet pharetra velit sagittis id. Aenean elit massa, rutrum at sagittis a, interdum id nisl. Suspendisse eu ex sed neque pharetra cursus quis vitae nulla.
+					</p>
+
+					<div class="email">bajabonita@yahoo.com</div><br>
+					<div class="telephone-number">From U.S. 011-52-646-155-0555</div><br>
+					<div class="website">www.bajaoceanproperties.com</div>
+
+					<hr>
+
+					<div class="heading"><span>C</span>onnect <span>W</span>ith 
+						<span>U</span>s</div> <br>
+
+					<p>	
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.	
+						<a href="#"><div class="social-box-fb1"></div></a>
+						<a href="#"><div class="social-box-twitter1"></div></a>
+						<a href="#"><div class="social-box-gplus1"></div></a>
+						<a href="#"><div class="social-box-yt1"></div></a>
+					</p>
+				</div>
+				<!--Column right end-->
+					
+				</div>
+			</div>
+
+			
+
+		
+
+			
+			<!--#include virtual="includes/footer.html" -->
+
+			
+		</div>
+
+		<!-- Load Scripts -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+		<script src="js/vendors.js"></script>
+		<script src="js/scripts.js"></script>
+
+	</body>
+</html>

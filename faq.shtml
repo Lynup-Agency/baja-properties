@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Baja Ocean Properties</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<meta name="robots" content="noindex">
+	</head>
+	<body>
+		<!-- Content -->	
+		<div class="site-wrapper">
+			<!--Home Page Masthead -->
+			<!--#include virtual="includes/inner-masthead.html" -->
+			<div class="row page-head">
+				<div class="container">
+					<h3><span>F</span>requently <span>A</span>sked
+						<span>Q</span>uestions</h3>
+				</div>
+			</div>
+
+			<div class="row ctas">
+				<div class="container">
+					
+					<!--FAQ box start-->
+					<div class="faq-box">
+					
+						<div class="heading-services"><span>C</span>an <span>F</span>oreigners 
+							<span>O</span>wn <span>B</span>each <span>P</span>roperty
+							<span>I</span>n <span>M</span>exico?
+						</div>
+
+							<p>
+								Yes. Recent changes to Mexican laws now permit foreign ownership of Mexican Real Estate. There are actually several ways a foreigner can legally and securely own real estate. Your best option will depend on your investment goals.
+							</p>
+
+						<hr>
+					</div>
+					<!--FAQ box end-->
+
+					<!--FAQ box start-->
+					<div class="faq-box">
+					
+						<div class="heading-services"><span>C</span>an <span>Y</span>ou 
+							<span>M</span>odify <span>I</span>t?
+						</div>
+
+							<p>
+								Yes. There are now at least three U.S. Title companies that will insure your investment in Mexico. Re/Max________ will make certain your purchase can be secured with Title Insurance.
+							</p>
+
+						<hr>
+					</div>
+					<!--FAQ box end-->
+					
+
+					<!--FAQ box start-->
+					<div class="faq-box">
+					
+						<div class="heading-services"><span>I</span>s <span>F</span>inancing
+							<span>A</span>vailable?
+						</div>
+
+							<p>
+								Yes. Contact your Re/Max________ associate for options.
+							</p>
+
+						<hr>
+					</div>
+					<!--FAQ box end-->
+
+					<!--FAQ box start-->
+					<div class="faq-box">
+					
+						<div class="heading-services"><span>I</span>s <span>T</span>here
+							<span>A</span> <span>W</span>ay <span>T</span>o <span>A</span>void
+							<span>T</span>raffic <span>A</span>t <span>T</span>he <span>B</span>order?
+						</div>
+
+							<p>
+								Yes. By purchasing the new Sentri Pass you will normally cross in minutes.
+							</p>
+
+						
+					</div>
+					<!--FAQ box end-->
+						
+				</div>
+			</div>
+
+			<div class="row properties properties-services">
+				<div class="container">
+
+					<div class="support"><img src="img/contact-gilr.png"></div>
+
+					<div class="contact-copy">
+
+						<div class="contact-us-heading">
+						<span>C</span>ontact <span>u</span>s <span>f</span>or 
+						<span>m</span>ore <span>i</span>nformation <hr>
+						</div>
+
+						<div class="contact-us-txt">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit aliquam auguse massa.
+						</div>
+
+						<div class="contact-number">
+							1 800 909 3456
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		
+
+			
+			<!--#include virtual="includes/footer.html" -->
+
+			
+		</div>
+
+		<!-- Load Scripts -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+		<script src="js/vendors.js"></script>
+		<script src="js/scripts.js"></script>
+
+	</body>
+</html>

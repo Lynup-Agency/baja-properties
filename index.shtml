@@ -79,6 +79,8 @@
 				<div class="container">
 					
 					<h3><span>O</span>ur <span>P</span>roperties</h3>
+
+					<!--Properties Start-->
 					<div class="img-box">
 						<a href="#" target="_blank" class="anchor-hover">
 							<img src="img/properties/prop1.jpg" width="340" height="260">
@@ -90,6 +92,7 @@
 						</a>
 						<div class="shadow"><img src="img/property-shadow.png"></div>
 					</div>
+
 					<div class="img-box">
 						<a href="#" target="_blank" class="anchor-hover">
 							<img src="img/properties/prop2.jpg" width="340" height="260">
@@ -101,6 +104,7 @@
 						</a>
 						<div class="shadow"><img src="img/property-shadow.png"></div>
 					</div>
+
 					<div class="img-box">
 						<a href="#" target="_blank" class="anchor-hover">
 							<img src="img/properties/prop3.jpg" width="340" height="260">
