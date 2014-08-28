@@ -1,0 +1,143 @@
+/**
+ * $ABOUT
+ * ==========================================================================
+ * This is a placeholder and example for a view.
+ */
+
+.page-head{
+	height: 180px;
+	background-color: $baja-orange;
+	background: url("../img/sand-bg.jpg") center bottom no-repeat;
+	text-align: center;
+
+	span{ font-size: 26px; }
+
+	h3 {
+		margin: 0 auto;
+		padding-top: 75px;
+		font-family: 'baja-serif-bold';
+		font-size: 24px;
+		color: #fff;
+		letter-spacing: 0.02em;	
+		text-align: left;
+		padding-bottom: 15px;
+		margin-left: 25px;
+	}
+}
+.heading-services{
+
+	span{ font-size: 18px; }
+
+	display: inline-block;
+
+
+	background-image: url('../img/arrows.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 15px;
+	margin-bottom: 15px;
+
+	font-family: 'baja-serif-bold';
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0.03em;
+	text-align: left;
+}
+hr{
+	border: 0;
+    height: 1px;
+    background: #ec9224;
+	}
+
+.services-box{
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+
+	//*border: 1px #b7521d solid;**/
+
+	font-family: 'baja-sans-reg';
+	letter-spacing: 0.02em;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.properties-services {
+ 	min-height: 230px;
+    background: url("../img/sand-background.jpg") center bottom no-repeat;  
+
+    .support{	
+	position: absolute;
+	margin-top: -37px;
+	float: left;
+	}
+}
+
+.contact-us-heading{
+	
+	span{ font-size: 26px; }
+
+	margin-left: 300px;
+	float: left;
+	padding-top: 30px;
+	font-family: 'baja-serif-bold';
+	font-size: 24px;
+	color: #343434;
+	letter-spacing: 0.02em;	
+	text-align: left;
+
+	hr{
+	border: 0;
+    height: 1px;
+    background: #f1dfd1;
+    margin-top: 10px;
+    width: 600px;
+    float: left;
+	}
+
+	}
+
+.contact-us-txt{
+	float: left;
+	margin-left: 300px;
+	font-family: 'baja-sans-reg';
+	letter-spacing: 0.02em;
+	font-size: 20px;
+	line-height: 18px;
+	text-align: left;
+	color: #343434;
+}
+
+.contact-number{
+	float: left;
+	margin-left: 300px;
+	font-family: 'baja-sans-bold';
+	letter-spacing: 0.02em;
+	font-size: 40px;
+	line-height: 26px;
+	text-align: left;
+	color: #343434;
+	margin-top: 20px;
+	background-image: url('../img/telephone.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+.image1{
+	width: 301px;
+	height: 234px;
+	margin-right: 30px;
+	margin-bottom: -5px;
+	float: left;
+	}
+
+.image2{
+	width: 301px;
+	height: 234px;
+	margin-left: 30px;
+	margin-top: -5px;
+	float: right;
+	}

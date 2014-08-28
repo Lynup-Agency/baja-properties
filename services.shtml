@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Baja Ocean Properties</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<meta name="robots" content="noindex">
+	</head>
+	<body>
+		<!-- Content -->	
+		<div class="site-wrapper">
+			<!--Home Page Masthead -->
+			<!--#include virtual="includes/inner-masthead.html" -->
+			<div class="row page-head">
+				<div class="container">
+					<h3><span>S</span>ervices</h3>
+				</div>
+			</div>
+
+			<div class="row ctas">
+				<div class="container">
+
+					<!--Services img-left box start-->
+					<div class="services-box">
+						<div class="image1"><img src="img/bank-trust.jpg"></div>
+
+						<div class="heading-services"><span>B</span>ank <span>T</span>rust</div>
+						<p>
+							Morbi at mauris aliquet ipsum pellentesque lacinia. Morbi et enim cursus, eleifend nisi vitae, interdum metus. Aliquam ut felis tellus. Maecenas accumsan ex a nulla ultricies sagittis. Integer sed magna at justo elementum aliquet. Aliquam laoreet varius leo. 
+							
+							<p>
+
+							Fusce gravida scelerisque arcu, vel cursus lorem condimentum non.Donec mollis mattis sodales. Mauris aliquet lectus id ornare lobortis. Donec ut diam id nibh efficitur dapibus tincidunt nec nunc. Fusce at ligula sagittis, aliquam elit nec, fermentum lectus. Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+							
+							<br>
+							
+							Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+						</p>
+					</div>
+					<!--Services box end-->
+
+					<hr>
+
+					<!--Services img-right box start-->
+					<div class="services-box">
+						
+						<div class="heading-services"><span>A</span>rchitectual</div>
+
+						<div class="image2"><img src="img/architectual.jpg"></div>
+
+						<p>
+							Morbi at mauris aliquet ipsum pellentesque lacinia. Morbi et enim cursus, eleifend nisi vitae, interdum metus. Aliquam ut felis tellus. Maecenas accumsan ex a nulla ultricies sagittis. Integer sed magna at justo elementum aliquet. Aliquam laoreet varius leo. 
+							
+							<p>
+
+							Fusce gravida scelerisque arcu, vel cursus lorem condimentum non.Donec mollis mattis sodales. Mauris aliquet lectus id ornare lobortis. Donec ut diam id nibh efficitur dapibus tincidunt nec nunc. Fusce at ligula sagittis, aliquam elit nec, fermentum lectus. Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+							
+							<br>
+							
+							Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+ 
+							
+						</p>		
+					</div>
+					<!--Services box end-->
+
+					<hr>
+
+					<!--Services img-left box start-->
+					<div class="services-box">
+						<div class="image1"><img src="img/accounting.jpg"></div>
+
+						<div class="heading-services"><span>A</span>ccounting</div>
+						<p>
+							Morbi at mauris aliquet ipsum pellentesque lacinia. Morbi et enim cursus, eleifend nisi vitae, interdum metus. Aliquam ut felis tellus. Maecenas accumsan ex a nulla ultricies sagittis. Integer sed magna at justo elementum aliquet. Aliquam laoreet varius leo. 
+							
+							<p>
+
+							Fusce gravida scelerisque arcu, vel cursus lorem condimentum non.Donec mollis mattis sodales. Mauris aliquet lectus id ornare lobortis. Donec ut diam id nibh efficitur dapibus tincidunt nec nunc. Fusce at ligula sagittis, aliquam elit nec, fermentum lectus. Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+							
+							<br>
+							
+							Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+						</p>
+					</div>
+					<!--Services box end-->
+			
+					<hr>
+					
+					<!--Services img-left box start-->
+					<div class="services-box">
+						<div class="image2"><img src="img/us-insurance.jpg"></div>
+
+						<div class="heading-services"><span>U.S. I</span>nsurance</div>
+						
+						<p>
+							Morbi at mauris aliquet ipsum pellentesque lacinia. Morbi et enim cursus, eleifend nisi vitae, interdum metus. Aliquam ut felis tellus. Maecenas accumsan ex a nulla ultricies sagittis. Integer sed magna at justo elementum aliquet. Aliquam laoreet varius leo. 
+							
+							<p>
+
+							Fusce gravida scelerisque arcu, vel cursus lorem condimentum non.Donec mollis mattis sodales. Mauris aliquet lectus id ornare lobortis. Donec ut diam id nibh efficitur dapibus tincidunt nec nunc. Fusce at ligula sagittis, aliquam elit nec, fermentum lectus. Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+							
+							<br>
+							
+							Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+						</p>
+					</div>
+					<!--Services box end-->
+
+					<hr>
+
+					<!--Services img-left box start-->
+					<div class="services-box">
+						<div class="image1"><img src="img/engineering.jpg"></div>
+
+						<div class="heading-services"><span>E</span>ngineering</div>
+						<p>
+							Morbi at mauris aliquet ipsum pellentesque lacinia. Morbi et enim cursus, eleifend nisi vitae, interdum metus. Aliquam ut felis tellus. Maecenas accumsan ex a nulla ultricies sagittis. Integer sed magna at justo elementum aliquet. Aliquam laoreet varius leo. 
+							
+							<p>
+
+							Fusce gravida scelerisque arcu, vel cursus lorem condimentum non.Donec mollis mattis sodales. Mauris aliquet lectus id ornare lobortis. Donec ut diam id nibh efficitur dapibus tincidunt nec nunc. Fusce at ligula sagittis, aliquam elit nec, fermentum lectus. Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+							
+							<br>
+							
+							Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+						</p>
+					</div>
+					<!--Services box end-->
+
+					<hr>
+
+					<!--Services img-left box start-->
+					<div class="services-box">
+						<div class="image2"><img src="img/appraisals.jpg"></div>
+
+						<div class="heading-services"><span>A</span>ppraisals</div>
+						<p>
+							Morbi at mauris aliquet ipsum pellentesque lacinia. Morbi et enim cursus, eleifend nisi vitae, interdum metus. Aliquam ut felis tellus. Maecenas accumsan ex a nulla ultricies sagittis. Integer sed magna at justo elementum aliquet. Aliquam laoreet varius leo. 
+							
+							<p>
+
+							Fusce gravida scelerisque arcu, vel cursus lorem condimentum non.Donec mollis mattis sodales. Mauris aliquet lectus id ornare lobortis. Donec ut diam id nibh efficitur dapibus tincidunt nec nunc. Fusce at ligula sagittis, aliquam elit nec, fermentum lectus. Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+							
+							<br>
+							
+							Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+						</p>
+					</div>
+					<!--Services box end-->
+
+					<hr>
+
+					<!--Services img-left box start-->
+					<div class="services-box">
+						<div class="image1"><img src="img/translations.jpg"></div>
+
+						<div class="heading-services"><span>T</span>ranslations</div>
+						<p>
+							Morbi at mauris aliquet ipsum pellentesque lacinia. Morbi et enim cursus, eleifend nisi vitae, interdum metus. Aliquam ut felis tellus. Maecenas accumsan ex a nulla ultricies sagittis. Integer sed magna at justo elementum aliquet. Aliquam laoreet varius leo. 
+							
+							<p>
+
+							Fusce gravida scelerisque arcu, vel cursus lorem condimentum non.Donec mollis mattis sodales. Mauris aliquet lectus id ornare lobortis. Donec ut diam id nibh efficitur dapibus tincidunt nec nunc. Fusce at ligula sagittis, aliquam elit nec, fermentum lectus. Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+							
+							<br>
+							
+							Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.Aenean ornare non eros nec bibendum. Integer non quam vitae felis lobortis facilisis ac ac quam. Ut in ipsum sit amet quam tempor viverra.
+						</p>
+					</div>
+					<!--Services box end-->
+				</div>
+			</div>
+
+			<div class="row properties properties-services">
+				<div class="container">
+
+					<div class="support"><img src="img/contact-gilr.png"></div>
+
+					<div class="contact-copy">
+
+						<div class="contact-us-heading">
+						<span>C</span>ontact <span>u</span>s <span>f</span>or 
+						<span>m</span>ore <span>i</span>nformation <hr>
+						</div>
+
+						<div class="contact-us-txt">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit aliquam auguse massa.
+						</div>
+
+						<div class="contact-number">
+							1 800 909 3456
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		
+
+			
+			<!--#include virtual="includes/footer.html" -->
+
+			
+		</div>
+
+		<!-- Load Scripts -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+		<script src="js/vendors.js"></script>
+		<script src="js/scripts.js"></script>
+
+	</body>
+</html>
