@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Baja Ocean Properties</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<meta name="robots" content="noindex">
+	</head>
+	<body>
+		<!-- Content -->	
+		<div class="site-wrapper">
+			<!--Home Page Masthead -->
+			<!--#include virtual="includes/inner-masthead.html" -->
+			<div class="row page-head">
+				<div class="container">
+					<h3><span>O</span>ur <span>P</span>roperties</h3>
+				</div>
+			</div>
+
+			<div class="row ctas">
+				<div class="container">
+					<h3><span>L</span>a <span>M</span>ission, <span>E</span>nsenada,
+					<span>B.C.</span> <span>M</span>exico</h3>
+
+					<!--Properties Start-->
+					<div class="img-box">
+						<a href="#" target="_blank" class="anchor-hover">
+							<img src="img/properties/prop1.jpg" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more1">View More</span>
+                            </span>
+						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
+					</div>
+
+					<div class="img-box">
+						<a href="#" target="_blank" class="anchor-hover">
+							<img src="img/properties/prop2.jpg" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more1">View More</span>
+                            </span>
+						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
+					</div>
+
+					<div class="img-box">
+						<a href="#" target="_blank" class="anchor-hover">
+							<img src="img/properties/prop3.jpg" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more1">View More</span>
+                            </span>
+						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
+					</div>
+					<!--Properties 3rdbox END-->
+
+					<!--Properties 1st box START-->
+					<div class="img-box">
+						<a href="#" target="_blank" class="anchor-hover">
+							<img src="img/properties/prop4.jpg" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more1">View More</span>
+                            </span>
+						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
+					</div>
+					<!--Properties 1st box END-->
+
+					<!--Properties 2nd box START-->
+					<div class="img-box">
+						<a href="#" target="_blank" class="anchor-hover">
+							<img src="img/properties/prop5.jpg" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more1">View More</span>
+                            </span>
+						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
+					</div>
+					<!--Properties 2nd box END-->
+
+					<!--Properties 3rd box START-->
+					<div class="img-box">
+						<a href="#" target="_blank" class="anchor-hover">
+							<img src="img/properties/prop6.jpg" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more1">View More</span>
+                            </span>
+						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
+					</div>
+					<!--Properties 3rdbox END-->
+					
+
+					<h3><span>U</span>rsulo <span>G</span>alvan, <span>E</span>
+						nsenada, <span>B.C.</span> <span>M</span>exico</h3>
+
+					<!--Properties Start-->
+					<div class="img-box">
+						<a href="#" target="_blank" class="anchor-hover">
+							<img src="img/properties/prop1.jpg" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more1">View More</span>
+                            </span>
+						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
+					</div>
+
+					<div class="img-box">
+						<a href="#" target="_blank" class="anchor-hover">
+							<img src="img/properties/prop2.jpg" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more1">View More</span>
+                            </span>
+						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
+					</div>
+
+					<div class="img-box">
+						<a href="#" target="_blank" class="anchor-hover">
+							<img src="img/properties/prop3.jpg" width="340" height="260">
+							<span class="details">
+                                <h2>La Mision</h2>
+                                <p class="desc">Ensenada Baja California, Mexico</p>
+                                <span class="more1">View More</span>
+                            </span>
+						</a>
+						<div class="shadow"><img src="img/property-shadow.png"></div>
+					</div>
+					<!--Properties 3rdbox END-->	
+				</div>
+			</div>
+
+			<div class="row properties properties-services">
+				<div class="container">
+
+					<div class="support"><img src="img/contact-gilr.png"></div>
+
+					<div class="contact-copy">
+
+						<div class="contact-us-heading">
+						<span>C</span>ontact <span>u</span>s <span>f</span>or 
+						<span>m</span>ore <span>i</span>nformation <hr>
+						</div>
+
+						<div class="contact-us-txt">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit aliquam auguse massa.
+						</div>
+
+						<div class="contact-number">
+							1 800 909 3456
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		
+
+			
+			<!--#include virtual="includes/footer.html" -->
+
+			
+		</div>
+
+		<!-- Load Scripts -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+		<script src="js/vendors.js"></script>
+		<script src="js/scripts.js"></script>
+
+	</body>
+</html>

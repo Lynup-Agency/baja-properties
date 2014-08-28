@@ -1,0 +1,107 @@
+/**
+ * $ABOUT
+ * ==========================================================================
+ * This is a placeholder and example for a view.
+ */
+
+
+
+.ctas {
+	span{ font-size: 22px; }
+
+	h3 {
+		margin: 0 auto;
+		font-family: 'baja-serif-bold';
+		font-size: 20px;
+		color: #000000;
+		letter-spacing: 0.02em;	
+		text-align: center;
+		padding-bottom: 15px;
+		margin-top: 140px;
+	}
+}
+
+
+.img-box {	
+		display: inline-block;
+		width: 350px;
+		height: 270px;		
+		border: 4px solid #fff;
+		padding-left: 5 px;
+		padding-top: 5 px;
+		padding-right: 5px;
+		margin-left: 25px;
+		margin-top: 50px;
+
+		background: #fff; 
+
+		-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
+		box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
+
+		transition: box-shadow 0.3s linear 0s; 
+		-webkit-transition: box-shadow 0.3s linear 0s;
+		-moz-transition: box-shadow 0.3s linear 0s;
+		-o-transition: box-shadow 0.3s linear 0s; 
+
+
+		@include media-query(portable){
+			margin: 15px;
+		}
+
+		@include media-query(palm){
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+	}
+		.anchor-hover { display: block; position: relative; }
+		.anchor-hover img { position: relative; }
+		.anchor-hover .details {
+			opacity: 0;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 340px;
+			height: 260px;
+			margin: 0;
+			padding-top: 10px;
+			padding-left: 10px;
+			font-size: 1.2em;
+			line-height: 1.4em;
+			text-decoration: none;
+			color: #888;
+			background-image: url("../img/prop-over.png");
+			overflow: hidden;
+			transition: opacity 0.25s linear 0s;
+			-webkit-transition: opacity 0.25s linear 0s;
+			-moz-transition: opacity 0.25s linear 0s;
+			-o-transition: opacity 0.25s linear 0s;
+		}
+
+		.anchor-hover .details h2 { 
+			text-decoration: none; 
+			margin-bottom: 8px;
+			font-family: 'baja-serif-bold';
+			font-size: 20px;
+			color: #fff;
+			text-align: center;
+			letter-spacing: 0.03em;	
+			margin-top: 30px;
+		 }
+		.anchor-hover .details p.desc { 
+			font-weight: normal; 
+			font-size: 18px; 
+			line-height: 0.5em; 
+			color: #fff; 
+			font-family: 'baja-sans-reg';	
+			text-align: center;	
+			margin-bottom: 95px;
+		}
+		.anchor-hover .details span.more1 {  
+			color: #fff; 
+			font-family: 'baja-sans-reg';	
+			text-align: center;	
+			margin-left: 115px;
+	 	}
+		.anchor-hover:hover .details { opacity: 1; }
